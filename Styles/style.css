@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+body {
+  font-family: "Roboto  ", sans-serif;
+}
+
+header {
+  padding: 0.4em;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: 10% 45% auto;
+      grid-template-columns: 10% 45% auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header > div.header-logo {
+  margin-left: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header > div.header-logo > i {
+  color: gray;
+  font-size: 18px;
+}
+
+header > div.header-logo > span {
+  margin-left: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header > div.header-logo > span > i {
+  color: red;
+  font-size: 24px;
+}
+
+header > div.header-logo > span > p {
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: black;
+  font-weight: 600;
+  margin-left: 8px;
+  font-size: 22px;
+}
+
+header > div.header-search > div.search-event {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header > div.header-search > div.search-event > input[type=text].input-search {
+  padding: 0.6em;
+  width: 100%;
+  border: 0.8px solid;
+  border-color: rgba(128, 128, 128, 0.39);
+  font-family: inherit;
+  font-weight: 600;
+}
+
+header > div.header-search > div.search-event > input[type=text].input-search::-webkit-input-placeholder {
+  font-weight: bold;
+}
+
+header > div.header-search > div.search-event > input[type=text].input-search:-ms-input-placeholder {
+  font-weight: bold;
+}
+
+header > div.header-search > div.search-event > input[type=text].input-search::-ms-input-placeholder {
+  font-weight: bold;
+}
+
+header > div.header-search > div.search-event > input[type=text].input-search::placeholder {
+  font-weight: bold;
+}
+
+header > div.header-search > div.search-event > input[type=text].input-search:focus {
+  outline: 0 !important;
+}
+
+header > div.header-search > div.search-event > button.input-search-button {
+  padding: 0.8em;
+  width: 10%;
+  border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: gray;
+}
+
+header > div.header-search > div.search-event > button.input-search-button:hover {
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+  color: black;
+  -webkit-box-shadow: 0.4px 1.6px 1px rgba(0, 0, 0, 0.16);
+          box-shadow: 0.4px 1.6px 1px rgba(0, 0, 0, 0.16);
+}
+
+header > div.header-search > div.search-event > button.input-search-button:focus {
+  outline: 0 !important;
+}
+
+header > div.header-options {
+  margin-right: auto;
+}
+
+header > div.header-options > ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header > div.header-options > ul > li {
+  margin-right: 1em;
+}
+
+header > div.header-options > ul > li > img {
+  width: 40px;
+  border-radius: 100px;
+}
+/*# sourceMappingURL=style.css.map */
